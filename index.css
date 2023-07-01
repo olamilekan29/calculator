@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(222, 26%, 31%);
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.fat{
+    display: flex;
+}
+.father{
+    display: grid;
+    color: white;
+    
+}
+.father h4{
+    margin-right: 250px;
+}
+.mother{
+    background-color: hsl(224, 36%, 15%);
+    height: 100px;
+    font-size: 32px;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+.mother h3{
+    margin-left: 250px;
+}
+.son{
+    background: hsl(224, 36%, 15%);
+    margin-top: 20PX;
+    padding: 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: hsl(221, 14%, 31%);
+}
+.son-1{
+    justify-content: space-between;
+    
+}
+.son-1 button{
+    background-color: hsl(30, 25%, 89%);
+    color:  hsl(225, 21%, 49%);
+    border: none;
+    width: 65px;
+    border-radius: 10px;
+    height: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0px hsl(224, 28%, 35%);
+}
+.son-2 button{
+    background-color: hsl(30, 25%, 89%);
+    color:  hsl(225, 21%, 49%);
+    border: none;
+    width: 65px;
+    border-radius: 10px;
+    height: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0px hsl(224, 28%, 35%);
+}
+.son-3 button{
+    background-color: hsl(30, 25%, 89%);
+    color:  hsl(225, 21%, 49%);
+    border: none;
+    width: 65px;
+    border-radius: 10px;
+    height: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0px hsl(224, 28%, 35%);
+}
+.son-4 button{
+    background-color: hsl(30, 25%, 89%);
+    color:  hsl(225, 21%, 49%);
+    border: none;
+    width: 65px;
+    border-radius: 10px;
+    height: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0px hsl(224, 28%, 35%);
+}
+.son-5 button{
+    width: 165px;
+    background-color: hsl(30, 25%, 89%);
+    color:  hsl(225, 21%, 49%);
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0px hsl(224, 28%, 35%);
+}
+
+
+@media(max-width:320px){
+
+    body{
+        background-color: hsl(222, 26%, 31%);
+        align-items: center;
+        justify-content: center;
+        display: grid;
+    } 
+   .father{
+        padding: 0;
+        margin: 0;
+        padding: 50px !important;
+    }
+    .father h4{
+        margin-left: 35px;
+        margin-right: 190px;
+    }
+    .mother{
+        padding: 0;
+    }
+    .mother h3{
+        margin-left: 150px;
+    }
+    .son-1 button{
+        background-color: hsl(30, 25%, 89%);
+        color:  hsl(225, 21%, 49%);
+        border: none;
+        width: 45px;
+        border-radius: 10px;
+        height: 45px;
+        margin-top: 10px;
+        cursor: pointer;
+        box-shadow: 0px 3px 3px 0px hsl(224, 28%, 35%);   
+    }
+    .butt-1 {
+        margin: 0 !important;
+        margin-right: 10px !important;
+    }
+    .son-2 button{
+        background-color: hsl(30, 25%, 89%);
+        color:  hsl(225, 21%, 49%);
+        border: none;
+        width: 45px;
+        border-radius: 10px;
+        height: 45px;
+        margin-top: 10px;
+        cursor: pointer;
+        box-shadow: 0px 3px 3px 0px hsl(224, 28%, 35%);   
+    }
+    .butt-2 {
+        margin: 0 !important;
+        margin-right: 10px !important;
+    }
+    .son-3 button{
+        background-color: hsl(30, 25%, 89%);
+        color:  hsl(225, 21%, 49%);
+        border: none;
+        width: 45px;
+        border-radius: 10px;
+        height: 45px;
+        margin-top: 10px;
+        cursor: pointer;
+        box-shadow: 0px 3px 3px 0px hsl(224, 28%, 35%);   
+    }
+    .butt-3 {
+        margin: 0 !important;
+        margin-right: 10px !important;
+    }
+    .son-4 button{
+        background-color: hsl(30, 25%, 89%);
+        color:  hsl(225, 21%, 49%);
+        border: none;
+        width: 45px;
+        border-radius: 10px;
+        height: 45px;
+        margin-top: 10px;
+        cursor: pointer;
+        box-shadow: 0px 3px 3px 0px hsl(224, 28%, 35%);   
+    }
+    .butt-4 {
+        margin: 0 !important;
+        margin-right: 10px !important;
+    }
+    .butt-5{
+        margin: 0 !important;
+        margin-right: 10px !important;
+        width: 105px !important;
+        margin-top: 10px !important;
+    }
+
+
+}
